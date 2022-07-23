@@ -2,9 +2,9 @@
   "name": "msm",
   "version": "2.1.0",
   "description": "Minecraft Server Monitor",
-  "main": "main.coffee",
+  "main": "main.js",
   "scripts": {
-    "start": "coffee -w main.coffee"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,7 @@
   },
   "homepage": "https://github.com/mirkokral/MinecraftServerMonitor#readme",
   "dependencies": {
-    "chalk": "^5.0.1",
-    "coffeescript": "^2.7.0",
+    "chalk": "^4.1.2",
     "minecraft-protocol": "^1.35.1"
   }
 }
