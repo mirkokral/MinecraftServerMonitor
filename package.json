@@ -4,7 +4,7 @@
   "description": "Minecraft Server Monitor",
   "main": "main.coffee",
   "scripts": {
-    "test": "coffee -w main.coffee"
+    "start": "coffee -w main.coffee"
   },
   "repository": {
     "type": "git",
