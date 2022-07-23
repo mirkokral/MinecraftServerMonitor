@@ -1,5 +1,14 @@
 {
     "compilerOptions": {
-        "incremental": true
-    }
+        "incremental": true,
+        "removeComments": true,
+        "module": "commonjs",
+        "target": "ES6",
+        "allowJs": true,
+        "outDir": "./build/"
+    },
+    "include": [
+        "./src/*"
+    ],
+    "exclude": ["node_modules"]
 }

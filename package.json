@@ -4,7 +4,7 @@
   "description": "Minecraft Server Monitor",
   "main": "main.js",
   "scripts": {
-    "start": "tsc --incremental main.ts && node main.js"
+    "start": "tsc --project ./ && node build/main.js"
   },
   "repository": {
     "type": "git",
