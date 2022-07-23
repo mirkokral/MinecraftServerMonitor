@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/mirkokral/MinecraftServerMonitor/issues"
   },
-  "homepage": "https://github.com/mirkokral/MinecraftServerMonitor#readme"
+  "homepage": "https://github.com/mirkokral/MinecraftServerMonitor#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "coffeescript": "^2.7.0",
+    "minecraft-protocol": "^1.35.1"
+  }
 }
