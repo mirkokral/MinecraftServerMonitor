@@ -4,7 +4,7 @@
   "description": "Minecraft Server Monitor",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "tsc main.ts && node main.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "minecraft-protocol": "^1.35.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
