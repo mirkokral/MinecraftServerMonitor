@@ -1,0 +1,19 @@
+{
+  "name": "msm",
+  "version": "2.1.0",
+  "description": "Minecraft Server Monitor",
+  "main": "main.coffee",
+  "scripts": {
+    "test": "coffee -w main.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirkokral/MinecraftServerMonitor.git"
+  },
+  "author": "Mirko kral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirkokral/MinecraftServerMonitor/issues"
+  },
+  "homepage": "https://github.com/mirkokral/MinecraftServerMonitor#readme"
+}
